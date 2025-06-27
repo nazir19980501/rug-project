@@ -66,12 +66,12 @@ close.addEventListener('click', function() {
 
 })
 
-// let image = 1
-// setInterval(() => {
+ let image = 1
+ setInterval(() => {
   
-//   heroImage.setAttribute('src', `images/decors/decor${image}.jpeg`)
-//   console.log(image)
-//     image += 1
-//   if (image==11) image = 1
-// }, 3000);
+   heroImage.setAttribute('src', `images/decors/decor${image}.jpeg`)
+   console.log(image)
+     image += 1
+   if (image==11) image = 1
+ }, 3000);
 
